@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ishika's Portfolio</title>
+  <style>
+    body {
+      background: #f9fafb;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #2c3e50;
+      margin-bottom: 0.2rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #7f8c8d;
+    }
+    main {
+      max-width: 700px;
+      width: 100%;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #2980b9;
+    }
+    .bio p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+    .projects, .blog-posts {
+      list-style: none;
+      padding-left: 0;
+    }
+    .projects li, .blog-posts li {
+      background: #ecf0f1;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+      transition: background-color 0.3s ease;
+    }
+    .projects li:hover, .blog-posts li:hover {
+      background-color: #d6eaf8;
+    }
+    .projects h3, .blog-posts h3 {
+      margin-bottom: 0.5rem;
+      color: #2c3e50;
+    }
+    .projects p, .blog-posts p {
+      color: #34495e;
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ishika's Portfolio</h1>
+    <p>Student | C Programmer | Lifelong Learner</p>
+  </header>
+
+  <main>
+    <section class="bio">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Ishika. I'm diving deep into C programming, data structures, and algorithmic thinking.  
+        This portfolio documents my projects, study notes, and learning journey.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul class="projects">
+        <li>
+          <h3>Matrix Multiplication in C</h3>
+          <p>Implemented matrix multiplication using nested loops with dimension validation for correctness.</p>
+        </li>
+        <li>
+          <h3>Data Structures Practice</h3>
+          <p>Worked on array manipulations, sorting algorithms, and basic data structure implementations in C++.</p>
+        </li>
+        <li>
+          <h3>IoT Human Detection Prototype</h3>
+          <p>Built a prototype using sensors and microcontrollers to detect human presence in a space.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Study Blog</h2>
+      <ul class="blog-posts">
+        <li>
+          <h3>Understanding Matrix Multiplication in C</h3>
+          <p>Explored the triple nested loop algorithm and key dimension rules to avoid bugs.</p>
+          <a href="#">Read More →</a>
+        </li>
+        <li>
+          <h3>Pointers in C Simplified</h3>
+          <p>Learned how pointers represent memory addresses and how to use them safely.</p>
+          <a href="#">Read More →</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <p>Feel free to <a href="mailto:ishika.email@example.com">email me</a> or connect on <a href="https://www.linkedin.com/in/ishika" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ishika. All rights reserved.
+  </footer>
+</body>
+</html>
