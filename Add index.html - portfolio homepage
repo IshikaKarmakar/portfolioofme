@@ -2,109 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ishika | Portfolio & Journal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ishika | Portfolio</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500&family=Source+Serif+4:wght@400;500&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="styles/theme.css">
   <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/theme.css">
 </head>
 
 <body>
-
-  <header>
-    <h1>Ishika</h1>
-    <p>Learning, building, and writing in public.</p>
+  <header class="top-bar">
+    <div class="logo">Ishika</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Vlog</a>
+      <a href="#">Projects</a>
+      <a href="#">About</a>
+    </nav>
   </header>
 
-  <main>
-
-    <!-- ABOUT -->
-    <section class="bio">
-      <h2>About Me</h2>
+  <main class="container">
+    <section class="hero card">
+      <h1>Building. Learning. Writing.</h1>
       <p>
-        Hi, I’m Ishika. I’m a student exploring programming, data structures,
-        and problem-solving through consistent practice.
-        This website is my personal space to document projects,
-        learning notes, and everyday reflections.
+        A living portfolio where I document my journey, projects, and everyday learnings.
       </p>
     </section>
 
-    <!-- PROJECTS -->
-    <section>
-      <h2>Projects</h2>
-      <ul class="projects">
-        <li>
-          <h3>Matrix Multiplication in C</h3>
-          <p>
-            Implemented matrix multiplication using nested loops with
-            proper dimension validation to ensure correctness.
-          </p>
-        </li>
+    <section class="grid">
+      <div class="card">
+        <h2>📓 Daily Vlog</h2>
+        <p>
+          Short reflections and lessons from my day. Honest, raw, and public.
+        </p>
+      </div>
 
-        <li>
-          <h3>Data Structures Practice</h3>
-          <p>
-            Hands-on work with arrays, sorting algorithms,
-            and basic data structure implementations in C++.
-          </p>
-        </li>
+      <div class="card">
+        <h2>🧠 Skills</h2>
+        <p>
+          C++, DSA, IoT basics, problem-solving, research mindset.
+        </p>
+      </div>
 
-        <li>
-          <h3>IoT Human Detection Prototype</h3>
-          <p>
-            Built a basic human-presence detection prototype using sensors
-            and microcontrollers.
-          </p>
-        </li>
-      </ul>
+      <div class="card">
+        <h2>🚀 Projects</h2>
+        <p>
+          Academic + self-driven projects. Clean execution over noise.
+        </p>
+      </div>
     </section>
-
-    <!-- JOURNAL -->
-    <section>
-      <h2>Journal</h2>
-      <ul class="blog-posts">
-        <li>
-          <h3>Understanding Matrix Multiplication in C</h3>
-          <p>
-            A breakdown of the triple-nested loop logic and
-            common mistakes beginners make.
-          </p>
-          <a href="#">Read more →</a>
-        </li>
-
-        <li>
-          <h3>Pointers in C, Explained Simply</h3>
-          <p>
-            Notes on how pointers store memory addresses
-            and how to avoid common errors.
-          </p>
-          <a href="#">Read more →</a>
-        </li>
-      </ul>
-    </section>
-
-    <!-- CONTACT -->
-    <section>
-      <h2>Contact</h2>
-      <p>
-        You can reach me via
-        <a href="mailto:ishika.email@example.com">email</a>
-        or connect with me on
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
-      </p>
-    </section>
-
   </main>
-
-  <footer>
-    © 2025 Ishika. Built calmly, one day at a time.
-  </footer>
-
 </body>
 </html>
