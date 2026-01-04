@@ -92,9 +92,12 @@ nav a:hover {
   margin-bottom: 14px;
 }
 .now {
-  margin-top: 24px;
-  padding-left: 32px;
-  color: #4b5563;
+  margin-top: 40px;
+  padding: 16px 24px;
+  border-left: 3px dashed var(--green-300);
+  background: #f9fcfa;
+
+  color: #374151;
   font-size: 14.5px;
 }
 
@@ -103,4 +106,5 @@ nav a:hover {
   font-style: italic;
   color: #6b7280;
 }
+
 
