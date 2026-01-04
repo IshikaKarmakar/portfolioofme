@@ -72,3 +72,23 @@ nav a:hover {
   margin-bottom: 10px;
   color: var(--green-600);
 }
+.about {
+  margin-top: 64px;
+  max-width: 800px;
+  background: linear-gradient(180deg, #ffffff, #f9fcfa);
+  border-left: 4px solid var(--green-300);
+  padding: 32px;
+}
+
+.about h2 {
+  margin-bottom: 16px;
+  color: var(--green-600);
+}
+
+.about p {
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: #374151;
+  margin-bottom: 14px;
+}
+
