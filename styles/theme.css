@@ -6,11 +6,19 @@
 }
 
 .top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
   background: linear-gradient(90deg, var(--green-200), var(--green-100));
   padding: 16px 32px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .logo {
