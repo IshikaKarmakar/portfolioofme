@@ -91,6 +91,99 @@ nav a:hover {
   color: #374151;
   margin-bottom: 14px;
 }
+:root {
+  --green-100: #e8f5ee;
+  --green-200: #cfeedd;
+  --green-300: #9fd9b8;
+  --green-600: #2f7d57;
+}
+
+.top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: linear-gradient(90deg, var(--green-200), var(--green-100));
+  padding: 16px 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--green-600);
+}
+
+nav a {
+  margin-left: 20px;
+  font-weight: 500;
+  color: var(--green-600);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: linear-gradient(
+    135deg,
+    var(--green-200),
+    #ffffff
+  );
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: var(--green-600);
+}
+
+.hero p {
+  font-size: 16px;
+  color: #374151;
+   margin-top: 12px;
+  max-width: 600px;
+}
+
+  .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: var(--green-600);
+}
+.about {
+  margin-top: 64px;
+  max-width: 800px;
+  background: linear-gradient(180deg, #ffffff, #f9fcfa);
+  border-left: 4px solid var(--green-300);
+  padding: 32px;
+}
+
+.about h2 {
+  margin-bottom: 16px;
+  color: var(--green-600);
+}
+
+.about p {
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: #374151;
+  margin-bottom: 14px;
+}
 .now {
   margin-top: 40px;
   padding: 16px 24px;
